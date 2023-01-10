@@ -8,9 +8,12 @@ from selenium.webdriver.common.keys import Keys
 
 
 class book:
+ def __init__(self, address):
+  self.address=address
+  
  def getting_movieurl(url):
   url_list=[]
-  driver = webdriver.Chrome('/Users/jungjunlim/desktop/Python/[Recsys] Crawling/chromedriver')
+  driver = webdriver.Chrome(self.address)
   driver.get(url)
   import time
   scroll_pane_height = driver.execute_script('return document.body.scrollHeight')
