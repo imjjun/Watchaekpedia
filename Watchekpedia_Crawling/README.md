@@ -1,11 +1,11 @@
-##Watchekpedia_Crawling README.md
+Watchekpedia_Crawling README.md
 
-book.py --> Watchapedia book Crawling
+  book.py --> Watchapedia book Crawling
 
-main2.py --> book Crawling Execution code
+  main2.py --> book Crawling Execution code
 
-movie.py --> Watchapedia movie Crawling
+  movie.py --> Watchapedia movie Crawling
 
-main.py --> movie Crawling Execution code
+  main.py --> movie Crawling Execution code
 
-pivoting.py --> Make Dataframe Interaction Matrix with 2500*8800
+  pivoting.py --> Make Dataframe Interaction Matrix with 2500*8800
