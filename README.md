@@ -1,4 +1,4 @@
-# Watchekpedia
+# Watchaekpedia
 
 Detailed model & descriptions are attached in "lightfm_pipeline.ipynb". Please refer to it.
 
