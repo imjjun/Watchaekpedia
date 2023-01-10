@@ -1,8 +1,8 @@
 import pandas as pd
 import ast
 
-movie=pd.read_csv('/Users/jungjunlim/Desktop/Python/Watchapedia_movie3_DB.csv')
-book=pd.read_csv('/Users/jungjunlim/Desktop/Python/Watchapedia_book_DB.csv')
+movie=pd.read_csv('insert movie dataframe address')
+book=pd.read_csv('insert book dataframe address')
 
 
 def pivoting(df):
@@ -25,6 +25,6 @@ def pivoting(df):
 user_book_db=pivoting(book)
 user_movie_db=pivoting(movie)
 df=pd.concat([user_book_db, user_movie_db],axis=0)
-user_book_db.to_csv('/Users/jungjunlim/Desktop/Python/Watchapedia_book_DB_user.csv')
-user_movie_db.to_csv('/Users/jungjunlim/Desktop/Python/Watchapedia_movie_DB_user.csv')
-df.to_csv('/Users/jungjunlim/Desktop/Python/Watchapedia_concat_user.csv')
+user_book_db.to_csv('user_book address')
+user_movie_db.to_csv('user_movie address')
+df.to_csv('Final Dataframe address')
